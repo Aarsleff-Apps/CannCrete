@@ -114,7 +114,7 @@ export default function Home() {
             <Text size="md">Estimated waste volume: {wasteVol.toFixed(2)} m&sup3;</Text>
           </Grid.Col>
           <Grid.Col span={{ base: 12, sm: 3 }}>
-            <Text size="md">Estimated waste percentage: {calcVol != 0 ? ((wasteVol/calcVol)*100).toFixed(2) : 0}%</Text>
+            <Text size="md">Estimated waste percentage: {calcVol != 0 ? ((wasteVol/calcVol)*100).toFixed(2) : "0.00"}%</Text>
           </Grid.Col>
         </Grid>
       </Container>
