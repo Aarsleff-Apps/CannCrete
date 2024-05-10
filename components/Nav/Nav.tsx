@@ -1,13 +1,8 @@
-import { AppShell, Group, Image } from "@mantine/core";
+import { AppShell, Group, Image, Title } from "@mantine/core";
 import NextImage from "next/image";
 import CannonLogo from "/public/android-chrome-512x512.png";
-import classes from "./Nav.module.css";
 
 export default function Nav({ children }: { children: React.ReactNode }) {
-  function cx(dark: any): string | undefined {
-    throw new Error("Function not implemented.");
-  }
-
   return (
     <AppShell padding="md" header={{ height: 60 }}>
       <AppShell.Header>
@@ -19,6 +14,7 @@ export default function Nav({ children }: { children: React.ReactNode }) {
               alt="My image"
               h={30}
             />
+            <Title order={3}>CannCrete</Title>
           </Group>
         </Group>
       </AppShell.Header>
