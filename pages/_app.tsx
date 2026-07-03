@@ -3,6 +3,7 @@ import "@mantine/core/styles.css";
 import type { AppProps } from "next/app";
 
 import { createTheme, MantineProvider } from "@mantine/core";
+import { SerwistProvider } from "@serwist/next/react";
 import Head from "next/head";
 
 const themeOverride = createTheme({
@@ -49,7 +50,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#006eb1" />
         <meta name="theme-color" content="#006eb1" />
       </Head>
-      <Component {...pageProps} />
+      <SerwistProvider swUrl="/sw.js">
+        <Component {...pageProps} />
+      </SerwistProvider>
     </MantineProvider>
   );
 }

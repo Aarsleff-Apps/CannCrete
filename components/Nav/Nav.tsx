@@ -1,6 +1,6 @@
 import { ActionIcon, AppShell, Group, Image, Title, useComputedColorScheme, useMantineColorScheme } from "@mantine/core";
 import NextImage from "next/image";
-import CannonLogo from "/public/android-chrome-512x512.png";
+import CannonLogo from "../../public/android-chrome-512x512.png";
 import classes from "./Nav.module.css";
 import { IconMoon, IconSun } from "@tabler/icons-react";
 import cx from "clsx";
