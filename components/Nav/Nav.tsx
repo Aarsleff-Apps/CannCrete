@@ -17,6 +17,7 @@ export default function Nav({ children }: { children: React.ReactNode }) {
               src={CannonLogo}
               alt="My image"
               h={30}
+              w={30}
             />
             <Title order={3}>CannCrete</Title>
             <ActionIcon variant="default" aria-label="Settings" onClick={() => setColorScheme(computedColorScheme === "light" ? "dark" : "light")}>
