@@ -35,6 +35,9 @@
   },
   "packageManager": "yarn@4.17.0",
   "resolutions": {
-    "postcss": "8.5.10"
+    "postcss": "8.5.10",
+    "brace-expansion@npm:^1.1.7": "1.1.16",
+    "sharp@npm:^0.34.5": "0.35.0",
+    "shell-quote@npm:1.8.4": "1.9.0"
   }
 }
