@@ -14,7 +14,7 @@
     "@mantine/hooks": "9.4.1",
     "@serwist/next": "^9.5.11",
     "@tabler/icons-react": "^3.44.0",
-    "next": "16.2.9",
+    "next": "16.2.11",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "serwist": "^9.5.11"
@@ -27,16 +27,17 @@
     "concurrently": "^10.0.3",
     "esbuild": "^0.28.1",
     "eslint": "9.39.4",
-    "eslint-config-next": "16.2.9",
-    "postcss": "8.5.10",
+    "eslint-config-next": "16.2.11",
+    "postcss": "8.5.18",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5"
   },
   "packageManager": "yarn@4.17.0",
   "resolutions": {
-    "postcss": "8.5.10",
+    "postcss": "8.5.18",
     "brace-expansion@npm:^1.1.7": "1.1.16",
+    "brace-expansion@npm:^5.0.5": "5.0.8",
     "sharp@npm:^0.34.5": "0.35.0",
     "shell-quote@npm:1.8.4": "1.9.0"
   }
